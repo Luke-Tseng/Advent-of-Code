@@ -2,7 +2,6 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include <algorithm>
 
 void file_fragmentation(std::vector<int> &disk)
 {
