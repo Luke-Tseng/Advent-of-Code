@@ -67,7 +67,7 @@ int main()
     std::unordered_map<int, std::vector<int>> m;
     std::vector<std::vector<int>> queues;
 
-    std::ifstream file("Day5_2024_input.txt");
+    std::ifstream file("Day05_2024_input.txt");
     std::string line;
     bool toggle = true;
     while (std::getline(file, line))

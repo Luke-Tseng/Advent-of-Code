@@ -86,7 +86,7 @@ int main()
 {
     std::vector<std::vector<char>> letters;
 
-    std::ifstream file("Day4_2024_input.txt");
+    std::ifstream file("Day04_2024_input.txt");
     std::string line;
     while (std::getline(file, line))
     {

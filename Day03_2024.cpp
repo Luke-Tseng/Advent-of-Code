@@ -30,7 +30,7 @@ int parse(std::string line, bool& enabled)
 
 int main()
 {
-    std::fstream file("Day3_2024_input.txt");
+    std::fstream file("Day03_2024_input.txt");
     std::string line;
     int total = 0;
     bool enabled = true;

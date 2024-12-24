@@ -10,7 +10,7 @@ int main()
     std::vector<int> list2;
 
     // Putting input into 2 lists
-    std::ifstream file("Day1_2024_input.txt");
+    std::ifstream file("Day01_2024_input.txt");
     int num;
     bool toggle = true;
     while (file >> num)

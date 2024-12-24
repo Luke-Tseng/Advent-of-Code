@@ -71,7 +71,7 @@ int main()
 {
     std::unordered_map<char, std::vector<std::pair<int, int>>> frequencies;
     std::set<std::pair<int, int>> antinodes;
-    std::ifstream file("Day8_2024_input.txt");
+    std::ifstream file("Day08_2024_input.txt");
     std::string line;
     int row = 0, col = 0;
     while (std::getline(file, line))

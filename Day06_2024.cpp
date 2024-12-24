@@ -112,7 +112,7 @@ std::vector<std::vector<char>> read_input(std::string filename, std::pair<int, i
 int main()
 {
     std::pair<int, int> startingPosition;
-    std::vector<std::vector<char>> map = read_input("Day6_2024_input.txt", startingPosition);
+    std::vector<std::vector<char>> map = read_input("Day06_2024_input.txt", startingPosition);
     std::set<std::pair<int, int>> visited;
     std::pair<int, int> position = startingPosition;
     visited.insert(position);

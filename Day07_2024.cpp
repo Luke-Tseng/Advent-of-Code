@@ -75,7 +75,7 @@ std::vector<std::vector<long long int>> read_input(std::string filename)
 
 int main()
 {
-    std::vector<std::vector<long long int>> equations = read_input("Day7_2024_input.txt");
+    std::vector<std::vector<long long int>> equations = read_input("Day07_2024_input.txt");
     long long int total = 0;
 
     std::vector<std::vector<long long int>> failed_equations;

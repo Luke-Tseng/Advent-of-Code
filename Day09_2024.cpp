@@ -81,7 +81,7 @@ void file_compacting(std::vector<int> &disk)
 int main()
 {
     std::vector<int> disk;
-    std::ifstream file("Day9_2024_input.txt");
+    std::ifstream file("Day09_2024_input.txt");
     std::string line;
     while (std::getline(file, line))
     {

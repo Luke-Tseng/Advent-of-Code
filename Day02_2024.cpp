@@ -70,7 +70,7 @@ int main()
     std::vector<std::vector<int>> reports;
 
     // Put input into a vector of vectors for each report
-    std::ifstream file("Day2_2024_input.txt");
+    std::ifstream file("Day02_2024_input.txt");
     std::string line;
     while (std::getline(file, line))
     {
